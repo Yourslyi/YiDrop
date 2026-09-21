@@ -60,14 +60,14 @@ LocalSend는 REST API 및 HTTPS 암호화를 통해 기기 간의 파일을 안�
 
 [windows store]: https://www.microsoft.com/store/apps/9NCB4Z0TZ6RR
 [app store]: https://apps.apple.com/us/app/localsend/id1661733229
-[play store]: https://play.google.com/store/apps/details?id=org.localsend.localsend_app
-[f-droid]: https://f-droid.org/packages/org.localsend.localsend_app
+[play store]: https://play.google.com/store/apps/details?id=org.localsend.yidrop_app
+[f-droid]: https://f-droid.org/packages/org.localsend.yidrop_app
 [amazon]: https://www.amazon.com/dp/B0BW6MP732
 [winget]: https://github.com/microsoft/winget-pkgs/tree/master/manifests/l/LocalSend/LocalSend
 [scoop]: https://scoop.sh/#/apps?s=0&d=1&o=true&q=localsend&id=fb88113be361ca32c0dcac423cb4afdeda0b0c66
 [chocolatey]: https://community.chocolatey.org/packages/localsend
 [homebrew]: https://formulae.brew.sh/cask/localsend
-[flathub]: https://flathub.org/apps/details/org.localsend.localsend_app
+[flathub]: https://flathub.org/apps/details/org.localsend.yidrop_app
 [nixpkgs]: https://search.nixos.org/packages?show=localsend
 [snap]: https://snapcraft.io/localsend
 [aur]: https://aur.archlinux.org/packages/localsend-bin
@@ -107,7 +107,7 @@ LocalSend는 REST API 및 HTTPS 암호화를 통해 기기 간의 파일을 안�
 
 (v1.15.0에서 업데이트됨)
 
-앱이 (작업표시줄에) 숨겨진 상태로 실행하게 하려면, `--hidden` 플래그를 사용하세요 (예시: `localsend_app.exe --hidden`).
+앱이 (작업표시줄에) 숨겨진 상태로 실행하게 하려면, `--hidden` 플래그를 사용하세요 (예시: `yidrop_app.exe --hidden`).
 
 v1.14.0보다 낮은 버전에서는, `autostart` 플래그가 설정되어 있고, 숨김 설정이 활성화되어 있을 때 앱이 숨겨진 상태로 실행됩니다.
 

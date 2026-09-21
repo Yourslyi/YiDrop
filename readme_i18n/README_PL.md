@@ -57,14 +57,14 @@ Dowiedz się więcej o [kanałach dystrybucji][].
 
 [windows store]: https://www.microsoft.com/store/apps/9NCB4Z0TZ6RR
 [app store]: https://apps.apple.com/us/app/localsend/id1661733229
-[sklep play]: https://play.google.com/store/apps/details?id=org.localsend.localsend_app
-[f-droid]: https://f-droid.org/packages/org.localsend.localsend_app
+[sklep play]: https://play.google.com/store/apps/details?id=org.localsend.yidrop_app
+[f-droid]: https://f-droid.org/packages/org.localsend.yidrop_app
 [amazon]: https://www.amazon.com/dp/B0BW6MP732
 [winget]: https://github.com/microsoft/winget-pkgs/tree/master/manifests/l/LocalSend/LocalSend
 [scoop]: https://scoop.sh/#/apps?s=0&d=1&o=true&q=localsend&id=fb88113be361ca32c0dcac423cb4afdeda0b0c66
 [chocolatey]: https://community.chocolatey.org/packages/localsend
 [homebrew]: https://formulae.brew.sh/cask/localsend
-[flathub]: https://flathub.org/apps/details/org.localsend.localsend_app
+[flathub]: https://flathub.org/apps/details/org.localsend.yidrop_app
 [nixpkgs]: https://search.nixos.org/packages?show=localsend
 [snap]: https://snapcraft.io/localsend
 [aur]: https://aur.archlinux.org/packages/localsend-bin
@@ -94,7 +94,7 @@ Aplikacja będzie używać tego pliku do przechowywania ustawień zamiast domyś
 
 (Zaktualizowano w v1.15.0)
 
-Aby uruchomić aplikację do zasobnika, użyj flagi `--hidden` (przykład: `localsend_app.exe --hidden`).
+Aby uruchomić aplikację do zasobnika, użyj flagi `--hidden` (przykład: `yidrop_app.exe --hidden`).
 
 W wersji v1.14.0 i wcześniejszych aplikacja uruchamia się do zasobnika, jeśli ustawiona jest flaga `autostart`, a ustawienie uruchamiania do zasobnika jest włączone.
 
