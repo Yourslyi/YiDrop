@@ -1,9 +1,9 @@
-name: localsend_app
+name: yidrop_app
 description: An open source cross-platform alternative to AirDrop
-homepage: https://localsend.org/
+homepage: https://drop.92li.us.kg/
 publish_to: "none"
 
-version: 1.16.2+57
+version: 1.17.4+74
 
 environment:
   flutter: ">=3.24.0"
@@ -107,6 +107,11 @@ flutter:
     - assets/img/
     - assets/web/
     - assets/CHANGELOG.md
+
+  fonts:
+    - family: Starrina
+      fonts:
+        - asset: assets/fonts/Starrina-Regular.ttf
 
 flutter_gen:
   line_length: 150

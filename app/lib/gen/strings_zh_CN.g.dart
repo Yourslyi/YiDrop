@@ -33,7 +33,7 @@ class TranslationsZhCn extends Translations {
   @override
   String get locale => '简体中文';
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'YiDrop';
   @override
   late final _TranslationsGeneralZhCn general = _TranslationsGeneralZhCn._(_root);
   @override
@@ -258,7 +258,7 @@ class _TranslationsTroubleshootPageZhCn extends TranslationsTroubleshootPageEn {
   @override
   String get title => '故障排除';
   @override
-  String get subTitle => '应用没有按预期工作？您可以在这里找到常用解决方案。';
+  String get subTitle => '应用没有按预期工作？你可以在这里找到常用解决方案。';
   @override
   String get solution => '解决方案：';
   @override
@@ -283,11 +283,11 @@ class _TranslationsReceiveHistoryPageZhCn extends TranslationsReceiveHistoryPage
   @override
   String get title => '历史';
   @override
-  String get openFolder => '打开目录';
+  String get openFolder => '打开文件保存目录';
   @override
   String get deleteHistory => '删除历史';
   @override
-  String get empty => '无历史记录。';
+  String get empty => '还没有历史记录哦';
   @override
   late final _TranslationsReceiveHistoryPageEntryActionsZhCn entryActions = _TranslationsReceiveHistoryPageEntryActionsZhCn._(_root);
 }
@@ -361,7 +361,7 @@ class _TranslationsReceiveOptionsPageZhCn extends TranslationsReceiveOptionsPage
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(LocalSend 文件夹)';
+  String get appDirectory => '(YiDrop 文件夹)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -416,7 +416,7 @@ class _TranslationsWebSharePageZhCn extends TranslationsWebSharePageEn {
 
   // Translations
   @override
-  String get title => '分享为链接';
+  String get title => '应急模式';
   @override
   String get loading => '正在启动服务器……';
   @override
@@ -442,7 +442,7 @@ class _TranslationsWebSharePageZhCn extends TranslationsWebSharePageEn {
   @override
   String pinHint({required Object pin}) => 'PIN 为 “${pin}”';
   @override
-  String get encryptionHint => 'LocalSend 使用自签名证书。您需要在浏览器中允许它。';
+  String get encryptionHint => 'YiDrop 使用自签名证书。你需要在浏览器中允许它。';
   @override
   String pendingRequests({required Object n}) => '待处理请求：${n}';
 }
@@ -457,20 +457,16 @@ class _TranslationsAboutPageZhCn extends TranslationsAboutPageEn {
 
   // Translations
   @override
-  String get title => '关于 LocalSend';
+  String get title => '关于 YiDrop';
   @override
   List<String> get description => [
-        'LocalSend 是一款免费的开源应用程序，可让您通过本地网络与附近的设备安全地分享文件和信息，而无需互联网连接。',
-        '本程序可在 Android、iOS、macOS、Windows 和 Linux 上使用。您可以在官方主页找到所有下载选项。',
+        'YiDrop 是一款免费的开源应用程序，可通过本地网络与附近的设备便捷地分享文件和信息，无需广域网连接，安全又可靠。',
+        '它带着跨平台的使命出发，支持 Android、Windows 和 Linux 全架构。你可以在 GitHub 找到所有安装包哦。',
       ];
   @override
   String get author => '作者';
   @override
-  String get contributors => '贡献者';
-  @override
-  String get packagers => '打包者';
-  @override
-  String get translators => '翻译者';
+  String get contributors => '鸣谢：LocalSend 项目的贡献者';
 }
 
 // Path: donationPage
@@ -485,11 +481,11 @@ class _TranslationsDonationPageZhCn extends TranslationsDonationPageEn {
   @override
   String get title => '捐赠';
   @override
-  String get info => 'LocalSend 免费、开源、无广告。如果您喜欢这款应用程序，可以捐款支持开发。';
+  String get info => 'YiDrop 免费、开源、无广告。如果你喜欢这款应用程序，可以捐款支持开发。';
   @override
   String donate({required Object amount}) => '捐款 ${amount}';
   @override
-  String get thanks => '非常感谢您的支持！';
+  String get thanks => '非常感谢你的支持！';
   @override
   String get restore => '恢复购买';
 }
@@ -518,71 +514,71 @@ class _TranslationsAliasGeneratorZhCn extends TranslationsAliasGeneratorEn {
   // Translations
   @override
   List<String> get adjectives => [
-        '迷人',
-        '美丽',
-        '巨大',
-        '明亮',
-        '干净',
+        '玲珑剔透',
+        '甜美',
+        '晶莹',
+        '晶莹',
+        '不染凡尘',
         '聪明',
-        '帅气',
+        '幸运',
         '可爱',
-        '狡猾',
-        '坚定',
-        '有活力',
-        '高效',
-        '极好',
-        '快速',
-        '不错',
+        '鲜艳',
+        '软糯',
+        '活力满满',
+        '多汁',
+        '可爱',
+        '水灵灵',
+        '香喷喷',
         '新鲜',
-        '好',
-        '华丽',
-        '伟大',
-        '英俊',
-        '炽热',
-        '善良',
-        '诚实',
-        '神秘',
-        '整洁',
+        '闪亮',
+        '玲珑剔透',
+        '幸运',
+        '可爱',
+        '晶莹',
+        '不染凡尘',
+        '幸运',
+        '可爱',
+        '软糯',
+        '可爱',
         '开心',
-        '耐心',
-        '漂亮',
-        '强大',
-        '富有',
-        '秘密',
+        '酥脆',
+        '香脆',
+        '闪亮',
+        '幸运',
         '聪明',
-        '稳固',
-        '特别',
-        '战略性',
-        '强大',
-        '整洁',
-        '智慧',
+        '可爱',
+        '清甜',
+        '脆嫩',
+        '酸涩',
+        '饱满',
+        '清甜',
       ];
   @override
   List<String> get fruits => [
         '苹果',
-        '鳄梨',
+        '梨',
         '香蕉',
-        '黑莓',
+        '花',
         '蓝莓',
-        '西兰花',
-        '胡萝卜',
+        '桃子',
+        '青梅',
         '樱桃',
         '椰子',
         '葡萄',
         '柠檬',
-        '莴苣',
+        '橘子',
         '芒果',
         '甜瓜',
-        '蘑菇',
-        '洋葱',
+        '小蘑菇',
+        '梨',
         '橙子',
         '木瓜',
         '桃子',
-        '梨',
+        '幸运草',
         '菠萝',
-        '土豆',
-        '南瓜',
-        '覆盆子',
+        '小土豆',
+        '柠檬',
+        '柠檬',
         '草莓',
         '番茄',
       ];
@@ -679,7 +675,7 @@ class _TranslationsTrayZhCn extends TranslationsTrayEn {
   @override
   String get open => _root.general.open;
   @override
-  String get close => '退出 LocalSend';
+  String get close => '退出 YiDrop';
   @override
   String get closeWindows => '离开';
 }
@@ -822,7 +818,7 @@ class _TranslationsSendTabSelectionZhCn extends TranslationsSendTabSelectionEn {
 
   // Translations
   @override
-  String get title => '选择';
+  String get title => '已选项目';
   @override
   String files({required Object files}) => '文件：${files}';
   @override
@@ -866,7 +862,7 @@ class _TranslationsSendTabSendModesZhCn extends TranslationsSendTabSendModesEn {
   @override
   String get multiple => '多个接收者';
   @override
-  String get link => '通过链接分享';
+  String get link => '应急模式';
 }
 
 // Path: settingsTab.general
@@ -903,7 +899,7 @@ class _TranslationsSettingsTabGeneralZhCn extends TranslationsSettingsTabGeneral
   @override
   String get launchMinimized => '启动时最小化到任务栏';
   @override
-  String get showInContextMenu => '在“发送到...”文件菜单中显示 LocalSend';
+  String get showInContextMenu => '在“发送到...”文件菜单中显示 YiDrop';
   @override
   String get animations => '动画效果';
 }
@@ -949,7 +945,7 @@ class _TranslationsSettingsTabSendZhCn extends TranslationsSettingsTabSendEn {
   @override
   String get title => '发送';
   @override
-  String get shareViaLinkAutoAccept => '通过链接分享：自动接受';
+  String get shareViaLinkAutoAccept => '应急模式：自动接受请求';
 }
 
 // Path: settingsTab.network
@@ -978,7 +974,7 @@ class _TranslationsSettingsTabNetworkZhCn extends TranslationsSettingsTabNetwork
   @override
   String get discoveryTimeout => '搜索设备超时';
   @override
-  String get useSystemName => '使用系统名称';
+  String get useSystemName => '使用设备名称';
   @override
   String get generateRandomAlias => '生成随机昵称';
   @override
@@ -1003,11 +999,11 @@ class _TranslationsSettingsTabOtherZhCn extends TranslationsSettingsTabOtherEn {
   @override
   String get title => '其他';
   @override
-  String get support => '支持 LocalSend';
+  String get support => '支持 YiDrop';
   @override
   String get donate => '捐赠';
   @override
-  String get privacyPolicy => '隐私政策';
+  String get privacyPolicy => '梨の主页';
   @override
   String get termsOfUse => '使用条款';
 }
@@ -1041,7 +1037,7 @@ class _TranslationsTroubleshootPageNoDiscoveryZhCn extends TranslationsTroublesh
   @override
   String get symptom => '此设备未能发现其他设备。';
   @override
-  String get solution => '确保所有设备都处于同一个 Wi‑Fi 网络上，且共享相同的网络配置（端口、多线程广播地址、加密选项）。您可以尝试手动输入目标设备的 IP 地址。如果起到了效果，请考虑将此设备添加到收藏夹中，以便将来可以自动发现。';
+  String get solution => '确保所有设备都处于同一个 Wi‑Fi 网络上，且共享相同的网络配置（端口、多线程广播地址、加密选项）。你可以尝试手动输入目标设备的 IP 地址。如果起到了效果，请考虑将此设备添加到收藏夹中，以便将来可以自动发现。';
 }
 
 // Path: troubleshootPage.noConnection
@@ -1056,7 +1052,7 @@ class _TranslationsTroubleshootPageNoConnectionZhCn extends TranslationsTroubles
   @override
   String get symptom => '双方设备均无法发现对方或者分享文件。';
   @override
-  String get solution => '当问题发生在双方设备上时，请先确认双方设备处于同一个 Wi‑Fi 网络上，且共享相同的网络配置（端口、多线程广播地址、加密选项）。若因 Wi‑Fi 不允许参与者间通信，那么请在路由器中关闭“接入点 (AP) 隔离”选项。';
+  String get solution => '当问题发生在双方设备上时，请先确认双方设备处于同一个 Wi‑Fi 或有线网络上，且被配置为相同的工作状态（端口、多线程广播地址、加密选项）。若 Wi‑Fi 不允许参与者间通信，那么请在路由器中关闭“接入点 (AP) 隔离”选项。';
 }
 
 // Path: receiveHistoryPage.entryActions
@@ -1124,7 +1120,7 @@ class _TranslationsDialogsOpenFileZhCn extends TranslationsDialogsOpenFileEn {
   @override
   String get title => '打开文件';
   @override
-  String get content => '您是否要打开接收的文件？';
+  String get content => '你是否要打开接收的文件？';
 }
 
 // Path: dialogs.addressInput
@@ -1324,7 +1320,7 @@ class _TranslationsDialogsLocalNetworkUnauthorizedZhCn extends TranslationsDialo
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description => 'LocalSend 在没有扫描本地网络的权限的情况下无法找到其他设备。请在设置中授予此权限。';
+  String get description => 'YiDrop 在没有扫描本地网络的权限的情况下无法找到其他设备。请在设置中授予此权限。';
   @override
   String get gotoSettings => '设置';
 }
@@ -1371,7 +1367,7 @@ class _TranslationsDialogsNoPermissionZhCn extends TranslationsDialogsNoPermissi
   @override
   String get title => '没有权限';
   @override
-  String get content => '您尚未授予必要的权限。请在设置中授予权限。';
+  String get content => '你尚未授予必要的权限。请在设置中授予权限。';
 }
 
 // Path: dialogs.notAvailableOnPlatform
@@ -1437,7 +1433,7 @@ class _TranslationsDialogsQuickSaveNoticeZhCn extends TranslationsDialogsQuickSa
   @override
   String get title => _root.general.quickSave;
   @override
-  String get content => '自动接受所有文件传输请求。请注意，这会让此网络中的所有人都可以向你发送文件。';
+  String get content => '自动接受所有文件传输请求。请注意，和你处在同一网络中的任何人都将可以向你发送文件。';
 }
 
 // Path: dialogs.quickSaveFromFavoritesNotice
@@ -1453,9 +1449,9 @@ class _TranslationsDialogsQuickSaveFromFavoritesNoticeZhCn extends TranslationsD
   String get title => _root.general.quickSaveFromFavorites;
   @override
   List<String> get content => [
-        '当前会自动接受收藏夹中设备的文件请求。',
-        '警告：这目前并非绝对安全，知道您收藏夹列表中的设备指纹被黑客窃取，其仍可以向您发送文件。',
-        '但是，此选项比“允许任何设备”更安全。',
+        '现在 YiDrop 会自动接受收藏夹中设备的文件请求。',
+        '警告：这并非绝对安全。如果某个被你列为收藏的设备存在系统层面的安全漏洞，攻击者将可以窃取它的指纹，从而向你发送文件。',
+        '不过，它至少比“允许任何设备”更安全。',
       ];
 }
 
@@ -1488,7 +1484,7 @@ class _TranslationsDialogsSendModeHelpZhCn extends TranslationsDialogsSendModeHe
   @override
   String get multiple => '发送文件给多个接收者。已选择的文件在发送后不会取消选择。';
   @override
-  String get link => '未安装 LocalSend 的接收者可以在浏览器中打开链接以下载选中的文件。';
+  String get link => '通过此模式，YiDrop 可以创建一个临时服务器，这样未安装 YiDrop 的设备就可以通过浏览器下载你分享的文件。';
 }
 
 // Path: dialogs.zoom
@@ -1533,7 +1529,7 @@ class _TranslationsSettingsTabGeneralColorOptionsZhCn extends TranslationsSettin
   @override
   String get system => '跟随系统';
   @override
-  String get oled => 'OLED';
+  String get oled => '深邃黑';
 }
 
 // Path: settingsTab.general.languageOptions

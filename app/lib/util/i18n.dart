@@ -1,9 +1,9 @@
-import 'package:localsend_app/gen/strings.g.dart';
+import 'package:yidrop_app/gen/strings.g.dart';
 
 Future<void> initI18n() async {
   // Register default plural resolver
   for (final locale in AppLocale.values) {
-    if ([AppLocale.en, AppLocale.de].contains(locale)) {
+    if ([AppLocale.en].contains(locale)) {
       continue;
     }
 
